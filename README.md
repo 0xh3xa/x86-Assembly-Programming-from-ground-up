@@ -6,7 +6,7 @@ The book follows AT&T dialect assembly.
 
 ### How to run?
 
-You can use `run-asm. sh'bash file to assemble, and link, both using the following suffix `asm`, `link`, `all`
+You can use `run-asm. sh` bash file to assemble, and link, both using the following suffix `asm`, `link`, `all`
 
 ```
 ./run-asm.sh chapter-10/integer-to-string.s asm
