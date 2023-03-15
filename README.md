@@ -24,12 +24,14 @@ Computer architecture, taking about CPU (ALU, registers, fetch-decode-execution 
 
 Data accessing modes include the following:
 
-- Immediate mode `mov $1, %eax`
-- Register addressing mode: instruction contains register to access.
-- Direct addressing mode: instruction contains the memory address to access.
-- Indexed addressing mode: instructions contain a  memory address to access and specify an index register to offset that address.
-- Indirect addressing mode: instruction contains a register that includes a pointer to where the data should be accessed.
-- Base pointer addressing mode:  similar to indirect addressing, but you also include a number called the offset to add to the register's value before using it for lookup.
+|Mode|Description|
+|--------------|--------------|
+|Immediate mode|`mov $1, %eax`|
+|Register addressing mode|instruction contains register to access|
+|Direct addressing mode|instruction contains the memory address to access|
+|Indexed addressing mode|instructions contain a  memory address to access and specify an index register to offset that address|
+|Indirect addressing mode|instruction contains a register that includes a pointer to where the data should be accessed|
+|Base pointer addressing mode|similar to indirect addressing, but you also include a number called the offset to add to the register's value before using it for lookup|
 
 >  Chapter 3
 
