@@ -1,6 +1,6 @@
 ### x86-Assembly-Programming-from-ground-up
 
-Assembly code from book Programming form group up include code for each chapter.
+Assembly code from the book Programming form group up includes code for each chapter.
 
 
 ### How  to run?
@@ -10,3 +10,7 @@ You can use `run-asm.sh`bash file to compiler, link, both using the following su
 ```
 ./run-asm.sh chapter-10/integer-to-string.s asm
 ```
+
+### Quick Guide
+
+TODO
